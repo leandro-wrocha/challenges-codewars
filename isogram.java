@@ -8,6 +8,17 @@
   isIsogram "Dermatoglyphics" = true
   isIsogram "moose" = false
   isIsogram "aba" = false
+
+  Example similar
+
+  class isogram {
+    public static boolean isIsogram(String str) {
+        return str.toLowerCase()
+                  .chars()
+                  .distinct()
+                  .count() == str.length();
+    }
+  }
  */
 
 public class isogram {
