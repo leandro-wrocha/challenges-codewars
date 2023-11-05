@@ -14,7 +14,7 @@
   If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
 */
 
-public class DuplicateEncoder {
+public class duplicateEncoder {
   static String encode(String word) {
     String newWord = "";
 
